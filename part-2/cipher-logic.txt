@@ -1,0 +1,7 @@
+Joseph's Cipher:
+
+My cipher works similarly to Caesar's cipher, however instead of just moving letters up 3, you can move them around in ANY direction you want
+
+i.e. if you pass in a string, it will take it and then check whatever amount you pass in, and shift it by that amount. The code will wrap if you add past the letter Z and wrap back to A, however if you move BACKWARDS past A it won't move back to Z, but it can move backwards other than that.
+
+"I love cryptography!" shifted back 3 would become -> "F ilsb zovmqldoxmev!"
